@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@aarc-dev/deposit-widget':
-    specifier: 0.1.10
-    version: 0.1.10(@types/react@18.3.3)(react-i18next@13.5.0)(react-native@0.74.2)(redux@5.0.1)(rollup@2.79.1)(typescript@5.4.5)
+    specifier: 0.1.11
+    version: 0.1.11(@types/react@18.3.3)(react-i18next@13.5.0)(react-native@0.74.2)(redux@5.0.1)(rollup@2.79.1)(typescript@5.4.5)
   '@rainbow-me/rainbowkit':
     specifier: ^2.1.2
     version: 2.1.2(@tanstack/react-query@5.45.1)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)(viem@2.15.1)(wagmi@2.10.2)
@@ -73,8 +73,8 @@ devDependencies:
 
 packages:
 
-  /@aarc-dev/deposit-widget@0.1.10(@types/react@18.3.3)(react-i18next@13.5.0)(react-native@0.74.2)(redux@5.0.1)(rollup@2.79.1)(typescript@5.4.5):
-    resolution: {integrity: sha512-PExP5Guqyxt2cWwf0In57sR1h+FFJLHJOU1h4PPMiYwtN+Wdfe/0B9hoOFGv0hFHVl7w72w0YDZiVeFTAjz2YA==}
+  /@aarc-dev/deposit-widget@0.1.11(@types/react@18.3.3)(react-i18next@13.5.0)(react-native@0.74.2)(redux@5.0.1)(rollup@2.79.1)(typescript@5.4.5):
+    resolution: {integrity: sha512-1AyS68LjieTtW9n8WJG9CdY5Iims9ULshZFEAABdCWlrrIGHslMXtoElTil58mBus7Cg6EjkrTduMhjJkuOeWw==}
     dependencies:
       '@aarc-xyz/core': 0.1.2
       '@ant-design/icons': 5.3.7(react-dom@18.3.1)(react@18.3.1)
