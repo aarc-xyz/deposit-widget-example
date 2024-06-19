@@ -19,8 +19,20 @@ function App() {
     modules: {
 
     },
+    onRamp: {
+      network: "ethereum",
+      mode: "deposit",
+      estimatedGasLimit: "1000000",
+      sourceTokenData: {
+        "sourceTokenCode": "USDC",
+        "sourceTokenAmount": 100
+      },
+      chainId: 1,
+      customerId: "323232323",
+      exchangeScreenTitle: "Deposit funds in your wallet",
+    },
     destination: {
-      chainId: 42161,
+      chainId: 167,
       tokenAddress: "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
       walletAddress: "0x7C1a357e76E0D118bB9E2aCB3Ec4789922f3e050",
       tokenSymbol: "USDA",
