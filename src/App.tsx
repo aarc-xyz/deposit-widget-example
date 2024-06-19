@@ -32,7 +32,7 @@ function App() {
       exchangeScreenTitle: "Deposit funds in your wallet",
     },
     destination: {
-      chainId: 167,
+      chainId: 137,
       tokenAddress: "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
       walletAddress: "0x7C1a357e76E0D118bB9E2aCB3Ec4789922f3e050",
       tokenSymbol: "USDA",
@@ -43,7 +43,7 @@ function App() {
       themeColor: "#800080",
     },
     options: {
-      fetchOnlyDestinationBalance: false,
+      fetchOnlyDestinationBalance: true,
     },
     apiKeys: {
       aarcSDK: import.meta.env.VITE_AARC_API_KEY,
