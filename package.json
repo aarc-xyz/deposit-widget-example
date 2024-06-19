@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@aarc-dev/deposit-widget": "0.1.11",
+    "@aarc-dev/deposit-widget": "0.1.12",
     "@rainbow-me/rainbowkit": "^2.1.2",
     "@rollup/plugin-commonjs": "^26.0.1",
     "@rollup/plugin-replace": "^5.0.7",
