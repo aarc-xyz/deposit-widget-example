@@ -16,18 +16,14 @@ function App() {
   };
 
   const config = {
-    modules: {
 
-    },
     onRamp: {
-      network: "ethereum",
       mode: "deposit",
       estimatedGasLimit: "1000000",
       sourceTokenData: {
         "sourceTokenCode": "USDC",
         "sourceTokenAmount": 100
       },
-      chainId: 1,
       customerId: "323232323",
       exchangeScreenTitle: "Deposit funds in your wallet",
     },

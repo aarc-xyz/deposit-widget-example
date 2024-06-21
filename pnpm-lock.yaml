@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@aarc-dev/deposit-widget':
-    specifier: 0.1.12
-    version: 0.1.12(@types/react@18.3.3)(react-i18next@13.5.0)(react-native@0.74.2)(redux@5.0.1)(rollup@2.79.1)(typescript@5.4.5)
+    specifier: 0.1.14
+    version: 0.1.14(@types/react@18.3.3)(react-i18next@13.5.0)(react-native@0.74.2)(redux@5.0.1)(rollup@2.79.1)(typescript@5.4.5)
   '@rainbow-me/rainbowkit':
     specifier: ^2.1.2
     version: 2.1.2(@tanstack/react-query@5.45.1)(@types/react@18.3.3)(react-dom@18.3.1)(react@18.3.1)(viem@2.15.1)(wagmi@2.10.2)
@@ -40,6 +40,9 @@ dependencies:
     version: 2.10.2(@tanstack/react-query@5.45.1)(@types/react@18.3.3)(react-dom@18.3.1)(react-i18next@13.5.0)(react-native@0.74.2)(react@18.3.1)(rollup@2.79.1)(typescript@5.4.5)(viem@2.15.1)
 
 devDependencies:
+  '@esbuild-plugins/node-globals-polyfill':
+    specifier: ^0.2.3
+    version: 0.2.3(esbuild@0.21.5)
   '@types/react':
     specifier: ^18.2.66
     version: 18.3.3
@@ -73,8 +76,8 @@ devDependencies:
 
 packages:
 
-  /@aarc-dev/deposit-widget@0.1.12(@types/react@18.3.3)(react-i18next@13.5.0)(react-native@0.74.2)(redux@5.0.1)(rollup@2.79.1)(typescript@5.4.5):
-    resolution: {integrity: sha512-Kllj2cwKmFXX4FI+I+TN3h812Yet5o0e9Z58/2NQYpkxm8/ZiSatzI3EnNESgLCrjpsGnVYX+nA/6y/ZiZ3QEA==}
+  /@aarc-dev/deposit-widget@0.1.14(@types/react@18.3.3)(react-i18next@13.5.0)(react-native@0.74.2)(redux@5.0.1)(rollup@2.79.1)(typescript@5.4.5):
+    resolution: {integrity: sha512-1mhBkgRfzfF43nYG9gDlhwUv983LwakwL9qf2eTNy3/jpCqXzl512HAMi9PCy8tjXWjCTcYfBYX07WTb/UDU5A==}
     dependencies:
       '@aarc-xyz/core': 0.1.2
       '@ant-design/icons': 5.3.7(react-dom@18.3.1)(react@18.3.1)
@@ -1775,6 +1778,14 @@ packages:
   /@emotion/unitless@0.7.5:
     resolution: {integrity: sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==}
     dev: false
+
+  /@esbuild-plugins/node-globals-polyfill@0.2.3(esbuild@0.21.5):
+    resolution: {integrity: sha512-r3MIryXDeXDOZh7ih1l/yE9ZLORCd5e8vWg02azWRGj5SPTuoh69A2AIyn0Z31V/kHBfZ4HgWJ+OK3GTTwLmnw==}
+    peerDependencies:
+      esbuild: '*'
+    dependencies:
+      esbuild: 0.21.5
+    dev: true
 
   /@esbuild/aix-ppc64@0.21.5:
     resolution: {integrity: sha512-1SDgH6ZSPTlggy1yI6+Dbkiz8xzpHJEVAlF/AM1tHPLsf5STom9rwtjE4hKAF20FfXXNTFqEYXyJNWh1GiZedQ==}
